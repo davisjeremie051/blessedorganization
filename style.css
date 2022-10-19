@@ -1,0 +1,182 @@
+            body {
+                padding: 0;
+                margin: 0;
+                background-color: orange;
+            }
+            
+            .action1 {
+                height: 600px;
+                margin: 50px;
+                left: 150px;
+                padding: 10px;
+                font-size: 20px;
+                position: relative;
+                border-radius: 10px;
+                background-color: blue;
+                font-family: 'Times New Roman';
+                color: white;
+            }
+            
+            .action::placeholder {
+                width: 10px;
+                height: 5px;
+                border: 3px;
+                background-color: blue;
+            }
+            
+            .btnn {
+                width: 110px;
+                height: 50px;
+                background: teal;
+                border: 150px;
+                margin-right: 200px;
+                margin-top: 5px;
+                border-radius: 10px;
+                cursor: pointer;
+                color: black;
+                border-color: aqua;
+            }
+            
+            .btnn:hover {
+                text-decoration: none;
+                color: aqua;
+                font-size: 10pxs;
+            }
+            
+            .btnn a {
+                text-decoration: none;
+                color: black;
+                font-weight: bold;
+            }
+            
+            h1 {
+                text-align: center;
+                color: black;
+                border: 50px;
+                background: white;
+                border-radius: 5px;
+            }
+            
+            P {
+                font-size: 20PX;
+                color: aqua;
+                border: 50px;
+                border-radius: 10px;
+                background: red;
+                border-bottom: 20px;
+            }
+            
+            img {
+                width: 650px;
+                height: 500px;
+                padding-left: 150;
+            }
+            
+            h2 {
+                font-size: 30px;
+                color: white;
+                background-color: black;
+                text-align: center;
+            }
+            
+            .nav-bar {
+                text-align: left;
+            }
+            
+            .nav-bar ul {
+                list-style-type: none;
+                display: flex;
+                float: right;
+                padding-right: 30px;
+                border-radius: 10px;
+                border: 20px;
+            }
+            
+            .nav-bar ul li {
+                padding: 20px;
+                margin-top: 15px;
+            }
+            
+            .nav-bar ul li a {
+                color: whitesmoke;
+                text-decoration: none;
+            }
+            
+            .active,
+            .nav-bar ul li a:hover {
+                color: white;
+                border-radius: 2px;
+                background-color: red;
+            }
+            /* log-form*/
+            
+            h4 {
+                font-size: 30px;
+                color: azure;
+                background-color: black;
+                text-align: center;
+                border: 5px;
+                border-radius: 2px;
+            }
+            
+            .form-box {
+                width: 400px;
+                height: 500px;
+                position: relative;
+                margin: 2% auto;
+                padding: 5px;
+                overflow: hidden;
+            }
+            
+            .form-box img {
+                width: 400px;
+                height: 500px;
+                align-items: center;
+            }
+            
+            .input-group-login {
+                top: 20px;
+                position: absolute;
+                width: 210px;
+                transition: .5s;
+                position: absolute;
+                cursor: pointer;
+            }
+            
+            .input-field {
+                width: 150%;
+                height: 0%;
+                padding: 20% 0;
+                margin: 10px 0;
+                border-left: 1px;
+                border-top: 1px;
+                border-right: 1px;
+                border-bottom: 1px solid orangered;
+                outline: none;
+                border-radius: 2px;
+            }
+            
+            .check-box {
+                margin: 30px 10px 34px 0;
+            }
+            
+            .submit-btn {
+                width: 85%;
+                padding: 10px 30px;
+                cursor: pointer;
+                display: block;
+                margin: auto;
+                border: 0;
+                outline: none;
+                border-radius: 30px;
+                background-color: aqua;
+            }
+            /* This is order list */
+            
+            .services {
+                font-size: 30px;
+                color: white;
+                padding: 20px;
+                margin-top: 15px;
+                text-align: center;
+            }
